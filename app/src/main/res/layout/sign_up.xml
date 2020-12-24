@@ -21,32 +21,60 @@
             android:layout_marginTop="260dp"
             android:layout_marginBottom="30dp"
             android:orientation="vertical">
+
+            <!-- ввод логина -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginBottom="10dp"
                 android:background="#FFFFFF">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Ivanov Ivan"/>
 
             </LinearLayout>
+
+            <!-- ввод почты -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="1dp"
                 android:background="#FFFFFF">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Ivanov@gmail.com"/>
 
             </LinearLayout>
+
+            <!-- ввод пароля -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="1dp"
                 android:background="#FFFFFF">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="********"/>
 
             </LinearLayout>
+
+            <!-- повтор пароля -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="1dp"
                 android:background="#FFFFFF">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="********"/>
 
             </LinearLayout>
             <LinearLayout
