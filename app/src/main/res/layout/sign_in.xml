@@ -25,8 +25,8 @@
             <!-- ввод логина-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
                 android:background="#FFFFFF">
                 <EditText
                     android:layout_width="wrap_content"
@@ -38,8 +38,8 @@
             <!-- ввод пароля -->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
                 android:background="#FFFFFF">
                 <EditText
                 android:layout_width="wrap_content"
@@ -50,8 +50,8 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
                 android:background="#9AFFFFFF"
                 android:orientation="vertical">
                 <TextView
@@ -59,13 +59,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
                     android:text="Forgot Password?"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    />
 
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
                 >
 
             </LinearLayout>
@@ -84,17 +85,17 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#FFFFFF"
                     android:layout_gravity="center"
-                    android:shadowTextColor="#000000"
                     android:textSize="16sp"
-                    android:text="Create a new account?"/>
+                    android:text="Create a new account?"
+                    android:onClick="toSU"/>
 
             </LinearLayout>
 

@@ -13,7 +13,11 @@ public class SignInActivity extends AppCompatActivity{
         setContentView(R.layout.sign_in);
     }
     public void toMap (View view) {
-        Intent i = new Intent(startActivity(nav_main );
-        finish();
+        Intent i = new Intent( SignInActivity.this, MapsActivity.class);
+        startActivity(i);
+    }
+    public void toSU (View view) {
+        Intent i = new Intent( SignInActivity.this, SignUpActivity.class);
+        startActivity(i);
     }
 }
