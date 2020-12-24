@@ -1,6 +1,5 @@
 package com.example.yourtaxi;
 
-import androidx.appcompat.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
